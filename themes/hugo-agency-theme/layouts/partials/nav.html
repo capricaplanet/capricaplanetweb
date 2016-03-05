@@ -24,6 +24,12 @@
                 </li>
                 {{ end }}
 
+                {{ if .Site.Params.intro.enable }}
+                <li>
+                    <a class="page-scroll" href="#nosotros">{{ with .Site.Params.navigation.nosotros }}{{ . | markdownify }}{{ end }}</a>
+                </li>
+                {{ end }}
+
                 {{ if .Site.Params.services.enable }}
                 <li>
                     <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>

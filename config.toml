@@ -37,6 +37,7 @@ googleAnalytics = ""
 	# Navigation
 	[params.navigation]
 		brand = "The Agency"
+		nosotros = "Nosotros"
 		services = "Services"
 		portfolio = "Portfolio"
 		about = "About"
@@ -73,13 +74,13 @@ googleAnalytics = ""
 					enable = true
 			title = "NOSOTROS"
 			subtitle = "Cáprica es un planeta habitado por formas de vida complejas que se alimentan del trabajo bien hecho y de la satisfacción de sus clientes. Nuestros habitantes (Nosotros, los Cápriquers) tienen numerosas habilidades diseñando y desarrollando productos web, móvil, interactivos y de impresión."
-			subtitle2 = "Estés en fase idea, en una etapa inicial, o en busca de un mayor desarrollo, te ayudaremos a establecer una visión global de tu producto. Combinamos creatividad, estrategia, diseño y desarrollo en un completo proceso para crear experiencias de usuario únicas."
+			subtitle2 = ""
 			ending = "¡Está en nuestra sangre, somos de Cáprica!"
 	# Services section
 	[params.services]
         enable = true
 		title = "¿Qué ofrecemos?"
-		subtitle = "Nuestros conocimientos, nuestras amplias habilidades y la fantástica relación con nuestro planeta vecino 'Startup' nos hacen diferentes del resto. "
+		subtitle = "Estés en fase idea, en una etapa inicial, o en busca de un mayor desarrollo, te ayudaremos a establecer una visión global de tu producto. Combinamos creatividad, estrategia, diseño y desarrollo en un completo proceso para crear experiencias de usuario únicas."
 
         [[params.services.row]]
 
