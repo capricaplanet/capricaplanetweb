@@ -1,0 +1,35 @@
+{{ "<!-- Services -->" | safeHTML }}
+<section id="services">
+  <div class="row">
+      <div class="col-lg-12 text-center">
+          <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
+          <h3 class="section-subheading text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+  </div>
+  {{ range .Site.Params.services.row }}
+  {{ range .list }}
+  <a class="" href="#myCarousel" data-slide-to={{ .position }}>
+    {{ .title }}
+  </a>
+  {{end}}
+  {{end}}
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Wrapper for carousel items -->
+      {{ range .Site.Params.services.row }}
+      <div class="carousel-inner">
+        {{ range .list }}
+          <div class="item {{ if eq .position 0 }} active {{ end }}">
+              <p> {{ .description | markdownify }} </p>
+              <ul>
+                {{ range $skill := .skills }}
+                  <li>{{ $skill }}</li>
+                {{ end }}
+              </ul>
+          </div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+  </div>
+</section>

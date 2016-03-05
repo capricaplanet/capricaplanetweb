@@ -12,3 +12,10 @@
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/agency.js"></script>
 {{ template "_internal/google_analytics.html" . }}
+<script type="text/javascript">
+$(document).ready(function(){
+     $("#myCarousel").carousel({
+         interval : false,
+     });
+});
+</script>

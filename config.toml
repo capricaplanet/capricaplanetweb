@@ -88,18 +88,20 @@ googleAnalytics = ""
                 title = "DESARROLLO DE MARCA"
                 description = "En Cáprica tenemos una amplia experiencia en el desarrollo y diseño de marca. Somos conscientes de que el logotipo es la identidad de una marca y queremos que brille. ¡Si hasta nuestra estrella se llama así!<br/>Nuestro equipo de diseñadores trabaja duro para encontrar la tipografía, el color y la forma perfectos para transmitir vuestro mensaje en forma de logotipo, ilustraciones, anuncios, etc... Y nuestros creativos tienen el mensaje idóneo para hacer de tu compañía la más cool de las redes.<br/>En nuestro planeta lo raro es no ser cool."
 								skills = ["Naming", "Branding", "Diseño", "Ilustraciones", "Publicidad y Marketing creativo", "Escritura creativa"]
-            [[params.services.row.list]]
+								position = 0
+						[[params.services.row.list]]
                 icon = "fa-user-md"
                 title = "DISEÑO CENTRADO EN EL USUARIO"
                 description = "Nuestra especie cuenta con más de 15 años de experiencia en el diseño y elaboración de interfaces usables tanto para web como para móvil. Comenzamos nuestro proceso de diseño con wireframes y pruebas de usuario, permitiéndonos realizar iteraciones rápidas y cambios incrementales a bajo coste."
 								skills = ["User Research + Entrevistas", "A / B Testing", "Diseño de experiencia de usuario", "Wireframes + prototipos", "Diseño de interfaz de usuario"]
-            [[params.services.row.list]]
+								position = 1
+						[[params.services.row.list]]
                 icon = "fa-building-o"
                 title = "DESARROLLO FULL-STACK"
                 description = """Aunque te parezca sorprendente, también somos desarrolladores full-stack que aplican metodologías ágiles demostrado que desarrollar en Ruby on Rails, Laravel, AngularJS, React y Sass es posible sin eternos tiempos de espera. Trabajamos en sprints de 2 semanas, publicando código con frecuencia y elaborando completos tests que minimizan los errores en la aplicación.
-
 ¡Somos de otro planeta! :D"""
 								skills = ["Laravel / Ruby on Rails / nodeJS para desarrollo del lado del servidor", "Frameworks de JavaScript para desarrollo del lado del cliente", "Desarrollo modular basado en metodologías DRY (No Te Repitas / Don't Repeat Yourself)", "Test Driven Development (TDD o Desarrollo guiado por pruebas)", "Desarrollo móvil. Android, iOS y Windows Phone."]
+								position = 2
 	# Portfolio section
 	[params.portfolio]
         enable = true
