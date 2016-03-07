@@ -119,6 +119,22 @@ googleAnalytics = ""
             category = "Category"
             buttonText = "Close project"
 
+		# Portfolio section
+		[params.products]
+	        enable = true
+			# All projects defined in their own files. You can find example projects
+			# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+			# at the root of this Hugo site.
+			# For more informtion take a look at the README.
+			title = "Productos"
+			subtitle = "Con días de 33 horas, somos una especie súper-productiva. Y cuando no estamos trabajando para nuestros clientes, estamos desarrollando soluciones útiles para distintos tipos de negocio."
+
+			[params.products.modal]
+	            client = "Client"
+	            date = "Date"
+	            category = "Category"
+	            buttonText = "Close project"
+
 
     # About section
 	[params.about]
@@ -220,9 +236,9 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
         enable = true
-		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
-		buttonText = "Send message"
+		title = "CONTACTANOS"
+		subtitle  = "Saber que había vida fuera de Cáprica fue para nosotros toda una revolución. Es por eso que nos encanta hablar con nuestros clientes. Nuestro background, habilidades y compatibilidad con otras startups y sus necesidades es lo que nos hace ser diferentes del resto. Bueno... ¡y que somos de otro planeta! Contacta con nosotros o péganos un telefonazo. Nos encantará saber más de ti y de las necesidades de tu compañía."
+		buttonText = "Contacta con nosotros"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
